@@ -1,0 +1,14 @@
+
+.menu{
+    display: flex;
+    margin-left: 30px;
+}
+.menu .menuItem{
+    margin-left: 40px; 
+    /* text-decoration: none;  */
+}
+.logo img{
+    margin-left:200px;
+    height: 30px;
+    background-color: #ffffff;
+}

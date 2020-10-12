@@ -1,0 +1,52 @@
+.banner-container{
+    display:flex;
+}
+.description {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 50%;
+    top: 236px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.image-container {
+    display: flex;
+}
+.image{
+    margin-top: 100px;
+    height: 250px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+
+ .image:active {
+    border: 2px solid #FBBC04;
+    border-radius: 20px;
+    transform: translateY(2px);
+  }
+
+.btn{  
+    position: static;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9a51a;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: bold;
+    line-height: 20px;
+    }
+.TravelTitle{
+    font-Size:50px;
+    font-weight: bold;
+}
+
+
+
+
+
