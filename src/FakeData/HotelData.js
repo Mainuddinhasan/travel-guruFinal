@@ -1,11 +1,11 @@
-import img0 from '../../Image/Rectangle 28.png';
-import img1 from '../../Image/Rectangle 27.png';
-import img2 from '../../Image/Rectangle 26.png';
+import img0 from '../images/Rectangle 28.png';
+import img1 from '../images/Rectangle 27.png';
+import img2 from '../images/Rectangle 26.png';
 const HotelData = [
 {
     "id":"0",
     "price":"34",
-    "HotelName":"Light Vright airy stylish apt & safe peaceful stay",
+    "HotelName":"Light bright airy stylish apt & safe peaceful stay",
     "HotelBody":"It's newly constructed 7 storied building maintaining building code by a locally famous architect. Enough lights and natural air are playing here. The place (apartment) is calm and noise free....",
     "HotelImg":`${img0}`,
 },

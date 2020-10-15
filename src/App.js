@@ -12,6 +12,9 @@ import Header from './components/Header/Header';
 import Book from './components/Book/Book';
 import NotFound from './components/NotFound/NotFound';
 import Navbar from './components/Navbar/Navbar';
+import SignUp from './components/SignUp/SignUp';
+import HotelBooking from './components/HotelBooking/HotelBooking';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 export const UserContext = createContext();
 
@@ -31,16 +34,15 @@ function App() {
             <Route path="/book/:id">
               <Book />
             </Route>
-            <Route path="/Login">
+            <Route path="/login">
               <Login/>
             </Route>
-            
-            {/* <Route path="/UserPropail">
-              <UserPropail></UserPropail>
-            </Route> */}
-            {/* <PrivateRoute path="/Hotel">
-              <Hotel/>
-            </PrivateRoute> */}
+            <Route path="/signup">
+              <SignUp/>
+            </Route>
+            <PrivateRoute path="/hotelBooking">
+              <HotelBooking/>
+            </PrivateRoute>
             <Route exact path="/">
               <Home />
             </Route>
@@ -50,9 +52,7 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/login">
-              <Login />
-            </Route>
+           
          
         </Switch>
       </Router> 
@@ -103,9 +103,6 @@ export default App;
 //               <Login/>
 //             </Route>
             
-//             {/* <Route path="/UserPropail">
-//               <UserPropail></UserPropail>
-//             </Route> */}
 //             {/* <PrivateRoute path="/Hotel">
 //               <Hotel/>
 //             </PrivateRoute> */}

@@ -214,9 +214,9 @@ const useStyles = makeStyles((theme) => ({
               <Link style={{color:'#fff', fontWeight:'bold',fontSize:'20px'}} className="nav-link" to="/blog">Blog</Link>
               </Typography>
               <Typography  className="menuItem"  variant="h6" noWrap>
-              <Link style={{color:'#fff', fontWeight:'bold',fontSize:'20px'}} className="nav-link" to="/contact">Contact</Link>
+              <Link style={{color:'#fff', fontWeight:'bold',fontSize:'20px'}} className="nav-link" to="/signup">Sign-Up</Link>
               </Typography>
-              <Button className="menuItem" color="inherit"><Link style={{color:'#fff', fontWeight:'bold',fontSize:'16px' }} className="nav-link" to="/Login">Login</Link></Button>
+              <Button className="menuItem" color="inherit"><Link style={{color:'#fff', fontWeight:'bold',fontSize:'16px' }} className="nav-link" to="/login">Login</Link></Button>
             </div>
   
             </Toolbar>

@@ -1,0 +1,45 @@
+.login-form{
+    position: absolute;
+    height: auto;
+    left: 400px;
+    top: 250px;
+    padding:40px;
+    margin-bottom: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.form-control{
+    padding: 10px 0px 0px 200px;
+    width: 420px;
+    height: 50px;
+    left: 490px;
+    top: 502px;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+.login-form h1{
+    text-align: center;
+}
+.login-btn{
+    background: #F9A51A;
+    width: 550px;
+    height: 50px;
+    margin-left:45px;
+}
+.login-form small{
+    margin-left: 180px;
+}
+.default-login-btn{
+    width: 550px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left:455px;
+    border-radius: 25px; 
+    font-weight:bold;
+  
+    
+}
