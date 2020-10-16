@@ -7,11 +7,13 @@ import travelPlaceData from '../TravelData/TravelData';
 
 const Home = () => {
    const [tourPlace,setTourPlace]=useState(travelPlaceData)
-    console.log(tourPlace)
+    // console.log(tourPlace)
    const [item, setItem] = useState([]);
-    console.log(item)
+  //  console.log(item)
     const handleTravelPlace = (travelPlace) => {
+    
     setItem(travelPlace);
+    console.log(travelPlace)
     }
     
     return (

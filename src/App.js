@@ -24,7 +24,7 @@ function App() {
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
          <Router>
-          <Header></Header>
+          <Navbar></Navbar>
 
          <Switch>
        
@@ -48,9 +48,7 @@ function App() {
             </Route>
             <Route path="*">
             <NotFound/>
-            </Route>
-            <Route exact path="/">
-              <Home />
+            
             </Route>
            
          
